@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/University/Programming/lab1/Circle.h
+cmath
+-
+
+D:/University/Programming/lab1/lab1.cpp
+lab1.h
+D:/University/Programming/lab1/lab1.h
+cmath
+-
+vector
+-
+
+D:/University/Programming/lab1/lab1.h
+Circle.h
+D:/University/Programming/lab1/Circle.h
+vector
+-
+
+D:/University/Programming/lab1/main.cpp
+iostream
+-
+lab1.h
+D:/University/Programming/lab1/lab1.h
+Circle.h
+D:/University/Programming/lab1/Circle.h
+vector
+-
+string
+-
+
